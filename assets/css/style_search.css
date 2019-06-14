@@ -1,0 +1,29 @@
+ .button_search{
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            background-color: #2897F7;
+}
+.button_search:hover {opacity: 0.8;}
+.search_box{
+    background-color: white;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+table{
+    margin: 50px 0;
+    background-color: white;
+    border: 1px solid black;
+    width: 80%;
+}
+tr, th,td{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+th{
+    text-align: center;
+}

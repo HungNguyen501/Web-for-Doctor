@@ -1,0 +1,127 @@
+ body {
+    margin: 0;
+}
+
+.page-grid {
+    background-color: rgb(237,237,237);
+    display: grid;
+    grid-template-rows: 55px auto;  
+    grid-template-columns: 200px auto;
+    grid-gap: 0;
+}
+
+#page-header-left {
+    background-color: white;
+    border-right: 2px solid #f1f1f1;
+    box-sizing: border-box;
+}
+
+#page-header-right {
+    background-color: white;
+    box-sizing: border-box;
+    font: lighter 11px/15px ;
+}
+
+#page-header-right button {
+    background-color:  rgb(47,53,89);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    float: right;
+    height: 39px;
+    margin: 8px 20px;
+    width: 130px;
+    outline: none;
+}
+
+#page-header-right button:hover{opacity: 0.8;}
+
+#page-sidebar {
+    background-color: rgb(47,53,89);
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 90px 55px 55px 55px auto;
+    font: lighter 15px/20px ; 
+    
+    
+}
+
+#page-sidebar-profile {
+    background-color: rgb(42,47,79);
+    box-sizing: border-box;
+    color: lightgray;
+    height: 75px;
+    position: relative;
+}
+
+#page-sidebar-profile img {
+    border-radius: 100px;
+    display: inline;
+    float: left;
+    height: 55px;
+    margin: 12px 8px 12px 5px;
+    width: 55px;
+}
+
+#page-sidebar-profile a1 {
+    color: #a8a8a8;
+    display: inline;
+    font-size: 13px;
+    float: left;
+    margin-top: 15px;
+}
+
+#page-sidebar-profile a2 {
+    color: #f9f9f9;
+    display: inline;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 0.6px;
+}
+
+#page-sidebar-menu {
+    background-color: rgb(47,53,89);
+    border: none;
+    color: rgb(150,150,150);
+    font: 13px/20px ;
+    outline: none;
+    padding-left: 14px;
+    text-align: left;
+}
+
+.icon {
+    display: inline-block;
+    filter: invert(50%);
+    float: left;
+    height: 16px;
+    margin-right: 7px;
+    padding-top: 3px;
+    width: 16px;
+}
+
+#page-sidebar-menu:hover{
+    background-color: rgb(42,47,79);
+    color: white;
+    cursor: pointer;
+}
+
+#page-sidebar-menu:hover .icon{
+    filter: invert(100%);
+}
+
+#page-sidebar-menu-current{
+    background-color: rgb(42,47,79);
+    border: none;
+    border-left: 3px solid rgb(255,58,109);
+    color: white;
+    cursor: pointer;
+    font: 13px/20px ; 
+    text-align: left;
+    padding: 10px;
+}
+
+#page-sidebar-menu-current .icon{
+    filter: invert(100%);
+}

@@ -1,0 +1,32 @@
+ #page-navi {
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+  }
+
+
+#page-navi  a {
+  float: left;
+  display: block;
+  padding: 8px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  background: #fff;
+  -webkit-transition: background 200ms linear;
+  transition: background 200ms linear;
+  border-radius: 3px;
+  color:#000;
+}
+
+#page-navi  a:hover {
+  background: rgb(58,67,112);
+  color: white;
+  border-bottom:1px solid #fff;
+}
+
+.padding0{
+    padding: 10px 0;
+    
+}
